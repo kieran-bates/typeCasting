@@ -1,7 +1,7 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Kieran Bates
+ * December 9, 2019
+ * This program prompts a user to input various data types and converts the user input into other data types
  */
 
 package typecasting;
@@ -30,9 +30,16 @@ public class TypeCasting {
         String stringOne = input.next();
         System.out.print("\n\nEnter a number without a decimal-->");
         String stringTwo = String.valueOf(input.nextInt());
-        System.out.print("\n\nEnter a number with a decimal");
+        System.out.print("\n\nEnter a number with a decimal-->");
         String stringThree = String.valueOf(input.nextDouble());
         
+        System.out.println("\n");
+        System.out.println((double)numberOne);
+        System.out.println((int)numberTwo);
+        System.out.println(String.valueOf(charOne));
+        System.out.println(stringOne.charAt(0));
+        System.out.println(Integer.parseInt(stringTwo));
+        System.out.println(Double.parseDouble(stringThree));
     }
     
 }
