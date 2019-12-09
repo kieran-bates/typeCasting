@@ -18,11 +18,11 @@ public class TypeCasting {
      */
     public static void main(String[] args) {
         
-        Scanner input = new Scanner(System.in);
-        System.out.println("***TYPE CASTING***");
-        System.out.print("\nEnter an integer -->");
-        int numberOne = input.nextInt();
-        System.out.print("\n\nEnter a double -->");
+        Scanner input = new Scanner(System.in); //New scanner for user input
+        System.out.println("***TYPE CASTING***"); //Print title
+        System.out.print("\nEnter an integer -->"); //Prompt for user input
+        int numberOne = input.nextInt(); //Store in appropriate variable
+        System.out.print("\n\nEnter a double -->"); //Repeat previous comments
         double numberTwo = input.nextDouble();
         System.out.print("\n\nEnter a single character -->");
         char charOne = (input.next()).charAt(0);
@@ -33,8 +33,8 @@ public class TypeCasting {
         System.out.print("\n\nEnter a number with a decimal-->");
         String stringThree = String.valueOf(input.nextDouble());
         
-        System.out.println("\n");
-        System.out.println("Int to double " +(double)numberOne);
+        System.out.println("\n"); //Print a return to separate text
+        System.out.println("Int to double " +(double)numberOne); //Perform the conversions and print the output
         System.out.println("Double to int " +(int)numberTwo);
         System.out.println("Char to string " +String.valueOf(charOne));
         System.out.println("String to char " +stringOne.charAt(0));
