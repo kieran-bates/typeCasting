@@ -34,12 +34,12 @@ public class TypeCasting {
         String stringThree = String.valueOf(input.nextDouble());
         
         System.out.println("\n");
-        System.out.println((double)numberOne);
-        System.out.println((int)numberTwo);
-        System.out.println(String.valueOf(charOne));
-        System.out.println(stringOne.charAt(0));
-        System.out.println(Integer.parseInt(stringTwo));
-        System.out.println(Double.parseDouble(stringThree));
+        System.out.println("Int to double " +(double)numberOne);
+        System.out.println("Double to int " +(int)numberTwo);
+        System.out.println("Char to string " +String.valueOf(charOne));
+        System.out.println("String to char " +stringOne.charAt(0));
+        System.out.println("Double to int " +Integer.parseInt(stringTwo));
+        System.out.println("Int to double " +Double.parseDouble(stringThree));
     }
     
 }
